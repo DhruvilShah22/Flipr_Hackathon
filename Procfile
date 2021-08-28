@@ -1,1 +1,1 @@
-web: gunicorn flipr-hackathon-task.wsgi --log-file -
+web: gunicorn CCM.wsgi --log-file -
