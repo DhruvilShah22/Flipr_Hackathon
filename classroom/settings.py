@@ -25,7 +25,7 @@ SECRET_KEY = 'o@4cre-12iar5_l!w((k$dsbs5^ariz#z7-(@!*6mn!81v06&b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1' , 'https://flipr-hackathon-task.herokuapp.com/']
 
 
 # Application definition
