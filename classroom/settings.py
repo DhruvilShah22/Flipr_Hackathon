@@ -25,7 +25,7 @@ SECRET_KEY = 'o@4cre-12iar5_l!w((k$dsbs5^ariz#z7-(@!*6mn!81v06&b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1' , 'flipr-hackathon-task.herokuapp.com/']
 
 
 # Application definition
@@ -125,9 +125,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'app/static')
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = '/'
+
+STATICFILES_DIRS = [
+    'static'
+]
